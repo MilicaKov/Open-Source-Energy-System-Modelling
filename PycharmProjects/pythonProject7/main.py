@@ -2,8 +2,8 @@ import math
 
 def calculate_circle_properties(radius):
     """
-    Calculates properties of a circle given its radius. Arguments:radius (float).
-    Returns:A tuple containing the area and circumference of the circle.
+    Calculates properties of a circle given its radius. Arguments: radius (float).
+    Returns: A tuple containing the area and circumference of the circle.
     """
     area = math.pi * radius ** 2
     circumference = 2 * math.pi * radius
@@ -12,7 +12,7 @@ def calculate_circle_properties(radius):
 def calculate_rectangle_properties(length, width):
     """
     Calculates properties of a rectangle given its length and width.
-    Args: length (float), width (float)
+    Args: length (float), width (float).
     Returns: A tuple containing the area and perimeter of the rectangle.
     """
     area = length * width
