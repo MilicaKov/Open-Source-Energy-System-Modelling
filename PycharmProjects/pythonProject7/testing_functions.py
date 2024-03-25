@@ -15,4 +15,4 @@ def test_calculate_rectangle_properties():
 def test_calculate_triangle_properties():
     area, perimeter = calculate_triangle_properties(3, 4, 5)
     assert math.isclose(area, 6, rel_tol=1e-9)  # Using Heron's formula
-    assert perimeter == 11
+    assert perimeter == 12
