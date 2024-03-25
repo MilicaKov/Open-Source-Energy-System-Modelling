@@ -2,13 +2,8 @@ import math
 
 def calculate_circle_properties(radius):
     """
-    Calculates properties of a circle given its radius.
-
-    Args:
-        radius (float): The radius of the circle.
-
-    Returns:
-        tuple: A tuple containing the area and circumference of the circle.
+    Calculates properties of a circle given its radius. Args:radius (float): The radius of the circle.
+    Returns:A tuple containing the area and circumference of the circle.
     """
     area = math.pi * radius ** 2
     circumference = 2 * math.pi * radius
@@ -17,13 +12,10 @@ def calculate_circle_properties(radius):
 def calculate_rectangle_properties(length, width):
     """
     Calculates properties of a rectangle given its length and width.
-
     Args:
         length (float): The length of the rectangle.
         width (float): The width of the rectangle.
-
-    Returns:
-        tuple: A tuple containing the area and perimeter of the rectangle.
+    Returns: A tuple containing the area and perimeter of the rectangle.
     """
     area = length * width
     perimeter = 2 * (length + width)
@@ -32,21 +24,17 @@ def calculate_rectangle_properties(length, width):
 def calculate_triangle_properties(side1, side2, side3):
     """
     Calculates properties of a triangle given its three sides.
-
     Args:
         side1 (float): Length of the first side.
         side2 (float): Length of the second side.
         side3 (float): Length of the third side.
-
-    Returns:
-        tuple: A tuple containing the area and perimeter of the triangle.
+    Returns: A tuple containing the area and perimeter of the triangle.
     """
     semi_perimeter = (side1 + side2 + side3) / 2
     area = math.sqrt(semi_perimeter * (semi_perimeter - side1) * (semi_perimeter - side2) * (semi_perimeter - side3))
     perimeter = side1 + side2 + side3
     return area, perimeter
 
-# Example usage:
 circle_area, circle_circumference = calculate_circle_properties(5)
 print("Circle - Area:", circle_area, "Circumference:", circle_circumference)
 
