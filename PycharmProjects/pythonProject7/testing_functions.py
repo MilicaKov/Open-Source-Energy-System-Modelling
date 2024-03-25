@@ -10,7 +10,7 @@ def test_calculate_circle_properties():
 def test_calculate_rectangle_properties():
     area, perimeter = calculate_rectangle_properties(4, 6)
     assert area == 24
-    assert perimeter == 20
+    assert perimeter == 21
 
 def test_calculate_triangle_properties():
     area, perimeter = calculate_triangle_properties(3, 4, 5)
