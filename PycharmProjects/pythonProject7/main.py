@@ -1,5 +1,5 @@
 import math
-
+import mimetypes
 def calculate_circle_properties(radius):
     """
     Calculates properties of a circle given its radius. Arguments: radius (float).
