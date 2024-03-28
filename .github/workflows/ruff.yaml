@@ -1,10 +1,22 @@
-name: Ruff
-on: [ push, pull_request ]
+name: Python Linting
+
+on: [push, pull_request]
+
 jobs:
-  ruff:
+  lint:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: chartboost/ruff-action@v1
-        with:
-          args: 'format --check'
+    - uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.9'
+
+    - name: Install Ruff
+      run: pip install ruff
+
+    - name: Check code with Ruff
+      run: ruff check PycharmProjects/pythonProject7/main.py
+
