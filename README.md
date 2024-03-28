@@ -1,7 +1,14 @@
 # Open-Source-Energy-System-Modelling
-First Project 
-1. I creatted rather simple python code including functions for calculating circle, rectange and triangle properties. This way it was easy to also manually follow if the tests were executed correctly. The code can be easily understood from the code documentation provided.
-3. The Tests for the code are executed on CI with the test.yml file. I executed the code few times making sure it detects when the tests are failing when they are supposed to.
-4. With the help of the Git package using comand prompt/windows power shell I performed the acions 'pull'(retrieved changes from a GitHub repository and merged them into my local repository), 'push' (sent my committed changes from local repository to a GitHub repository). The functions used are : git add . ; git commit ; git pull; git push -u origin main (to the main branch)
-5. I performed Code-quality linter ruff (ruff version 0.3.3) localy on my python virtual environment and on GitHub to make sure the code is configured correctly.
-6. 
+This project is part of the coursework for the "Open Source Energy System Modelling" class. 
+The core functionality of this project revolves around a set of Python functions designed to compute key properties of trigonometric shapes.
+The functions themselves are rather simple but are useful for future more complex projects and applications in energy system modelling. Fore example in the scope of land use planning and component sizing in energy systems (rectangle), estimating cross-sectional areas of cables and pipes (circle), understanding the distribution of forces and in the structural analysis of energy infrastructure(triangle).
+
+Below is a brief overview of the main functions included in this project, along with their purpose:
+1. calculate_circle_properties(radius): Calculates the area and circumference of a circle given its radius. 
+2. calculate_rectangle_properties(length, width): Computes the area and perimeter of a rectangle. 
+3. calculate_triangle_properties(side1, side2, side3): Determines the area and perimeter of a triangle based on the lengths of its sides.
+
+
+
+
+
