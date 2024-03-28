@@ -27,6 +27,6 @@ jobs:
         with:
           python-version: '3.9'
       - name: Install dependencies
-         run: pip install ruff
+        run: pip install ruff
       - name: Run Ruff
-         run: ruff check .
+        run: ruff check .
