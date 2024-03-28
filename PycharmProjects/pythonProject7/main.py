@@ -15,8 +15,8 @@ def calculate_rectangle_properties(length, width):
     Args: length (float), width (float).
     Returns: A tuple containing the area and perimeter of the rectangle.
     """
-    area = length * width
-    perimeter = 2 * (length + width)
+    area =length * width
+    perimeter =2 * (length + width)
     return area, perimeter
 
 def calculate_triangle_properties(side1, side2, side3):
@@ -28,7 +28,7 @@ def calculate_triangle_properties(side1, side2, side3):
         side3 (float): Length of the third side.
     Returns: A tuple containing the area and perimeter of the triangle.
     """
-    semi_perimeter = (side1 + side2 + side3) / 2
+    semi_perimeter =(side1 + side2 + side3) / 2
     area = math.sqrt(semi_perimeter * (semi_perimeter - side1) * (semi_perimeter - side2) * (semi_perimeter - side3))
     perimeter = side1 + side2 + side3
     return area, perimeter
