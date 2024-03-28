@@ -1,11 +1,13 @@
 import math
-
+import math
 def calculate_circle_properties(radius):
     """
     Calculates properties of a circle given its radius. Arguments: radius (float).
     Returns: A tuple containing the area and circumference of the circle.
     """
     area = math.pi * radius ** 2
+
+
     circumference = 2 * math.pi * radius
     return area, circumference
 
