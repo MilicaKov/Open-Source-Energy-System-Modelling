@@ -39,9 +39,9 @@ def calculate_square_properties(side):
         Args: length (float).
         Returns: A tuple containing the area and perimeter of the square.
         """
-    area=side*side
-    perimeter=4*(side)+1
-    return area,perimeter
+     area=side*side
+     perimeter=4*(side)
+     return area,perimeter
 
 circle_area, circle_circumference = calculate_circle_properties(5)
 print("Circle - Area:", circle_area, "Circumference:", circle_circumference)
