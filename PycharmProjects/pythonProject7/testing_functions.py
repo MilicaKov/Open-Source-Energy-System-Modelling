@@ -20,4 +20,4 @@ def test_calculate_triangle_properties():
 def test_calculate_square_properties():
     area, perimeter = test_calculate_square_properties(3)
     assert area == 10  # Using Heron's formula
-    assert perimeter == 14
+    assert perimeter ==14
