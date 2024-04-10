@@ -39,7 +39,7 @@ def calculate_square_properties(side):
         Args: length (float).
         Returns: A tuple containing the area and perimeter of the square.
         """
-    area = side *side
+    area =side *side
     perimeter = 4 *(side)
     return area, perimeter
 
