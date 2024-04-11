@@ -40,8 +40,7 @@ def calculate_square_properties(side):
         Returns: A tuple containing the area and perimeter of the square.
         """
     AREA=side*side
-    PERIMETER=(4*
-               (side))
+    PERIMETER=(4*(side))
     return AREA,PERIMETER
 
 circle_area, circle_circumference = calculate_circle_properties(5)
