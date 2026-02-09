@@ -33,6 +33,16 @@ def calculate_triangle_properties(side1, side2, side3):
     perimeter = side1 + side2 + side3
     return area, perimeter
 
+def calculate_square_properties(side):
+    """
+        Calculates properties of a square given its length.
+        Args: length (float).
+        Returns: A tuple containing the area and perimeter of the square.
+        """
+    AREA=side*side
+    PERIMETER=(4*(side))
+    return AREA,PERIMETER
+
 circle_area, circle_circumference = calculate_circle_properties(5)
 print("Circle - Area:", circle_area, "Circumference:", circle_circumference)
 
@@ -41,5 +51,9 @@ print("Rectangle - Area:", rectangle_area, "Perimeter:", rectangle_perimeter)
 
 triangle_area, triangle_perimeter = calculate_triangle_properties(3, 4, 5)
 print("Triangle - Area:", triangle_area, "Perimeter:", triangle_perimeter)
+
+square_area, square_perimeter = calculate_square_properties(3)
+print("Square - Area:", square_area, "Perimeter:", square_perimeter)
+
 
 
